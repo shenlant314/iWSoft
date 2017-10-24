@@ -1,0 +1,65 @@
+﻿生成启动时间为 2017/8/25 22:27:57。
+     1>项目“M:\编程\HWGPS\MultiTab\MultiTab_vc100.vcxproj”在节点 6 上(rebuild 个目标)。
+     1>InitializeBuildStatus:
+         正在创建“x64\Release\MultiTab.unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\x86_amd64\CL.exe /c /Zi /nologo /W1 /WX- /Od /D _WIN64 /D _WINDOWS /D NDEBUG /D MULTITAB_MODULE /D _AFXEXT /D _ACRXAPP /D _WINDLL /D _UNICODE /D UNICODE /D _AFXDLL /GF /Gm- /EHsc /MD /GS /fp:precise /Zc:wchar_t /Zc:forScope /GR /Yc"StdAfx.h" /Fp"x64\Release\MultiTab.pch" /Fo"x64\Release\\" /Fd"x64\Release\vc100.pdb" /Gd /TP /errorReport:prompt acrxEntryPoint.cpp CAcDocMgrReator.cpp DocData.cpp MdiTabMain.cpp MultiTab.cpp RTabCtrl.cpp StdAfx.cpp
+         acrxEntryPoint.cpp
+         CAcDocMgrReator.cpp
+         DocData.cpp
+         MdiTabMain.cpp
+         MultiTab.cpp
+         RTabCtrl.cpp
+         StdAfx.cpp
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\x86_amd64\CL.exe /c /Zi /nologo /W1 /WX- /Od /D _WIN64 /D _WINDOWS /D NDEBUG /D MULTITAB_MODULE /D _AFXEXT /D _ACRXAPP /D _WINDLL /D _UNICODE /D UNICODE /D _AFXDLL /GF /Gm- /EHsc /MD /GS /fp:precise /Zc:wchar_t /Zc:forScope /GR /Yc"..\StdAfx.h" /Fp"x64\Release\MultiTab.pch" /Fo"x64\Release\\" /Fd"x64\Release\vc100.pdb" /Gd /TP /errorReport:prompt tab_src_files\CustomTabCtrl.cpp
+         CustomTabCtrl.cpp
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\x86_amd64\CL.exe /c /Zi /nologo /W1 /WX- /Od /D _WIN64 /D _WINDOWS /D NDEBUG /D MULTITAB_MODULE /D _AFXEXT /D _ACRXAPP /D _WINDLL /D _UNICODE /D UNICODE /D _AFXDLL /GF /Gm- /EHsc /MD /GS /fp:precise /Zc:wchar_t /Zc:forScope /GR /Yc"../StdAfx.h" /Fp"x64\Release\MultiTab.pch" /Fo"x64\Release\\" /Fd"x64\Release\vc100.pdb" /Gd /TP /errorReport:prompt tab_src_files\ThemeUtil.cpp
+         ThemeUtil.cpp
+       ResourceCompile:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /D NDEBUG /D _UNICODE /D UNICODE /D _AFXDLL /l"0x0409" /Ix64\Release\ /nologo /fo"x64\Release\MultiTab.res" MultiTab.rc 
+       ManifestResourceCompile:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /nologo /fo"x64\Release\MultiTab.dll.embed.manifest.res" x64\Release\MultiTab_manifest.rc 
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets(990,5): warning MSB8012: TargetPath(M:\编程\HWGPS\MultiTab\x64\Release\MultiTab.dll) 与 Linker 的 OutputFile 属性值(M:\编程\HWGPS\bin_x64\vc100\MultiTab.arx)不匹配。这可能导致项目生成不正确。若要更正此问题，请确保 $(OutDir)、$(TargetName) 和 $(TargetExt) 属性值与 %(Link.OutputFile) 中指定的值匹配。
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets(991,5): warning MSB8012: TargetExt(.dll) 与 Linker 的 OutputFile 属性值(.arx)不匹配。这可能导致项目生成不正确。若要更正此问题，请确保 $(OutDir)、$(TargetName) 和 $(TargetExt) 属性值与 %(Link.OutputFile) 中指定的值匹配。
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:PROMPT /OUT:"../bin_x64/vc100/MultiTab.arx" /INCREMENTAL /NOLOGO /MANIFEST /ManifestFile:"x64\Release\MultiTab.dll.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"../lib_x64/vc100/MultiTab.lib" /MACHINE:X64 /DLL x64\Release\MultiTab.res
+         x64\Release\MultiTab.dll.embed.manifest.res
+         x64\Release\acrxEntryPoint.obj
+         x64\Release\CAcDocMgrReator.obj
+         x64\Release\CustomTabCtrl.obj
+         x64\Release\DocData.obj
+         x64\Release\MdiTabMain.obj
+         x64\Release\MultiTab.obj
+         x64\Release\RTabCtrl.obj
+         x64\Release\StdAfx.obj
+         x64\Release\ThemeUtil.obj
+            正在创建库 ../lib_x64/vc100/MultiTab.lib 和对象 ../lib_x64/vc100/MultiTab.exp
+     1>rxapi.lib(libinit.obj) : warning LNK4099: 未找到 PDB“rxapi_cl.pdb”(使用“rxapi.lib(libinit.obj)”或在“M:\编程\HWGPS\bin_x64\vc100\rxapi_cl.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+         MultiTab_vc100.vcxproj -> M:\编程\HWGPS\MultiTab\x64\Release\MultiTab.dll
+       Manifest:
+         正在删除文件“x64\Release\MultiTab.dll.embed.manifest”。
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /out:"x64\Release\MultiTab.dll.embed.manifest" /manifest x64\Release\MultiTab.dll.intermediate.manifest "C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\Include\Manifest\dpiaware.manifest"
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /nologo /fo"x64\Release\MultiTab.dll.embed.manifest.res" x64\Release\MultiTab_manifest.rc 
+       LinkEmbedManifest:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:PROMPT /OUT:"../bin_x64/vc100/MultiTab.arx" /INCREMENTAL /NOLOGO /MANIFEST /ManifestFile:"x64\Release\MultiTab.dll.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"../lib_x64/vc100/MultiTab.lib" /MACHINE:X64 /DLL x64\Release\MultiTab.res
+         x64\Release\MultiTab.dll.embed.manifest.res
+         x64\Release\acrxEntryPoint.obj
+         x64\Release\CAcDocMgrReator.obj
+         x64\Release\CustomTabCtrl.obj
+         x64\Release\DocData.obj
+         x64\Release\MdiTabMain.obj
+         x64\Release\MultiTab.obj
+         x64\Release\RTabCtrl.obj
+         x64\Release\StdAfx.obj
+         x64\Release\ThemeUtil.obj
+            正在创建库 ../lib_x64/vc100/MultiTab.lib 和对象 ../lib_x64/vc100/MultiTab.exp
+     1>rxapi.lib(libinit.obj) : warning LNK4099: 未找到 PDB“rxapi_cl.pdb”(使用“rxapi.lib(libinit.obj)”或在“M:\编程\HWGPS\bin_x64\vc100\rxapi_cl.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+         MultiTab_vc100.vcxproj -> M:\编程\HWGPS\MultiTab\x64\Release\MultiTab.dll
+       FinalizeBuildStatus:
+         正在删除文件“x64\Release\MultiTab.unsuccessfulbuild”。
+         正在对“x64\Release\MultiTab.lastbuildstate”执行 Touch 任务。
+     1>已完成生成项目“M:\编程\HWGPS\MultiTab\MultiTab_vc100.vcxproj”(rebuild 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:14.52

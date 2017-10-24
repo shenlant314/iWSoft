@@ -1,0 +1,21 @@
+Microsoft Visual Studio Solution File, Format Version 7.00
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "iWAcsModelTools", "iWAcsModelTools.vcproj", "{F265F41B-FC26-43C0-85DD-2BA9C14BDA26}"
+EndProject
+Global
+	GlobalSection(SolutionConfiguration) = preSolution
+		ConfigName.0 = Debug
+		ConfigName.1 = Release
+	EndGlobalSection
+	GlobalSection(ProjectDependencies) = postSolution
+	EndGlobalSection
+	GlobalSection(ProjectConfiguration) = postSolution
+		{F265F41B-FC26-43C0-85DD-2BA9C14BDA26}.Debug.ActiveCfg = Debug|Win32
+		{F265F41B-FC26-43C0-85DD-2BA9C14BDA26}.Debug.Build.0 = Debug|Win32
+		{F265F41B-FC26-43C0-85DD-2BA9C14BDA26}.Release.ActiveCfg = Release|Win32
+		{F265F41B-FC26-43C0-85DD-2BA9C14BDA26}.Release.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+	EndGlobalSection
+	GlobalSection(ExtensibilityAddIns) = postSolution
+	EndGlobalSection
+EndGlobal
