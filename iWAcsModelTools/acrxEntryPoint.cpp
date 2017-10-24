@@ -110,6 +110,7 @@ public:
 		if (!CiWAcsModelTools::Normalize())
 		{
 			CiWAcsModelTools::iwCopyToProvideFile();
+
 		}
 	}
 } ;
